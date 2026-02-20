@@ -1,0 +1,9 @@
+{
+  "name": "Hanuman Tracker",
+  "short_name": "Hanuman",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#b22222",
+  "icons": []
+}
