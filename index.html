@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hanuman 21 Day Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<h1>🙏 21 Day Hanuman Tracker</h1>
+
+<div class="card">
+  <h2>Today's Tasks</h2>
+
+  <label><input type="checkbox" class="task"> Gratitude</label>
+  <label><input type="checkbox" class="task"> Meditation</label>
+  <label><input type="checkbox" class="task"> Affirmation</label>
+  <label><input type="checkbox" class="task"> Visualization</label>
+  <label><input type="checkbox" class="task"> Ho'oponopono</label>
+
+  <button onclick="calculateProgress()">Save Progress</button>
+
+  <h3 id="progressText">Progress: 0%</h3>
+</div>
+
+<button onclick="setReminder()">Set 1 Minute Reminder</button>
+
+<script src="app.js"></script>
+
+</body>
+</html>
